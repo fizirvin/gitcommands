@@ -1,0 +1,83 @@
+git init //inicia el proyecto con git
+git status // muestra estatus
+git add historia.txt // añande al statging un archivo
+git rm --cached historia.txt // unstage
+git rm --force // elimina los archivos de Git y del disco duro
+
+git commit -m "este es el primer commit"
+
+git config
+git config --list
+git config --ist --show-origin
+
+git config --global user.name "Irvin Fiz"
+git config --global user.email "irvin.fiz.dev@gmail.com"
+
+cat historia.txt
+code historia.txt
+
+git add . todos los archivos
+
+git log historia.txt
+
+git show
+
+git diff commitAversionvieja commitBversionnueva
+
+git reset --hard version anterior todo
+git reset --soft lo que sigue en staging se queda igual para un nuevo commit
+git reset HEAD saca archivos de stagig para no se envíen al commit
+
+git checkout commitversion historia.txt //regresas a una version anterior
+git checkout master historia.txt //regersa
+
+git clone url
+
+git push //luego de hacer git add y git commit mandarlos al repositorio remoto
+git fetch // traer actualizaciones del servidor remoto
+git merge // combina el trabajo con el local
+git pull // fetch y merge al mismo tiempo
+
+
+git branch cabcera 
+git checkout cabecera
+git add archivodelacabecera
+git commit -m "agregue cabcera"
+
+voy a master
+git checkout master (no etsá cabecera nueva)
+
+regreso a cabecera
+git checkout cabecera
+trabajo si hago checkout a master pierdo archivos de cabecera
+git commit -m "finalizada la cabecera"
+
+git checkout master regreso a master
+git commit -m ""
+
+git checkout cabecera
+trabajo
+
+git checkout master
+
+git merge cabecera
+
+
+git remote add origin url
+
+git remote -v
+
+git pull origin master
+
+git put origin master --allow-unrelated-histories
+
+git push origin master
+
+
+
+
+
+
+
+
+
